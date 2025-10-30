@@ -1,0 +1,7 @@
+v 4
+file . ".\tb_xor_gate_using_nand.vhd" "f5548b0e1a79d91bfe2acadf888c2647a0b6c50a" "20251030125026.448":
+  entity tb_xor_gate at 1( 0) + 0 on 21;
+  architecture test of tb_xor_gate at 7( 85) + 0 on 22;
+file . ".\xor_gate_using_nand.vhd" "8ffeca1b827cb109b23d1bb8f36084ffff9ff0b2" "20251030125018.863":
+  entity xor_gate at 1( 0) + 0 on 19;
+  architecture logic of xor_gate at 12( 158) + 0 on 20;
