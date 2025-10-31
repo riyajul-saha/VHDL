@@ -1,0 +1,7 @@
+v 4
+file . "tb_xor_gate.vhd" "fc4234cbafc26542f41889509aa088e4383f98ca" "20251031021759.012":
+  entity tb_xor_gate at 1( 0) + 0 on 17;
+  architecture test of tb_xor_gate at 7( 85) + 0 on 18;
+file . "xor_gate.vhd" "f4648ee21974a982a50d92e0d8879317a3dedaf5" "20251031021749.805":
+  entity xor_gate at 1( 0) + 0 on 15;
+  architecture test of xor_gate at 12( 158) + 0 on 16;
