@@ -1,0 +1,7 @@
+v 4
+file . ".\tb_half_adder.vhd" "86bb9b3681dd6f000de81d6751755c0ee36230f3" "20251031123831.490":
+  entity tb_half_adder at 1( 0) + 0 on 17;
+  architecture test of tb_half_adder at 7( 87) + 0 on 18;
+file . ".\half_adder.vhd" "744aa2d1ba4bff14a6b49becb61a0ae49382f82d" "20251031123827.910":
+  entity half_adder at 1( 0) + 0 on 15;
+  architecture logic of half_adder at 13( 191) + 0 on 16;

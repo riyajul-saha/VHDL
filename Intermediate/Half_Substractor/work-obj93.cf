@@ -1,0 +1,7 @@
+v 4
+file . ".\tb_half_substractor.vhd" "78fbad1faca888970f6c5cbc8534a3c185cc5ec9" "20251031130033.058":
+  entity tb_half_substractor at 1( 0) + 0 on 13;
+  architecture test of tb_half_substractor at 7( 93) + 0 on 14;
+file . "half_substractor.vhd" "c322aed9bca70b82b70ddee98c0f4586c1a0b04f" "20251031125946.900":
+  entity half_substractor at 1( 0) + 0 on 11;
+  architecture logic of half_substractor at 13( 212) + 0 on 12;

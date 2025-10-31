@@ -1,15 +1,16 @@
 library IEEE;
-use IEEE.STD_LOGIC_1164.ALL;
+use IEEE.std_logic_1164.all;
 
 entity AND_GATE is
-    Port (
-        A : in STD_LOGIC;
-        B : in STD_LOGIC;
-        Y : out STD_LOGIC
-    );
-end AND_GATE;
+    Port
+	( 
+		A : in STD_LOGIC;
+		B : in STD_LOGIC; 
+		Y : out STD_LOGIC
+	);
+end entity;
 
-architecture Behavioral of AND_GATE is
+architecture logic of AND_GATE is
 begin
-    Y <= A AND B;
-end Behavioral;
+    Y <= A AND B; ---And Gate logic 
+end architecture;

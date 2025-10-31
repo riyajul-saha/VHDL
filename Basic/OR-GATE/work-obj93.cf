@@ -1,7 +1,7 @@
 v 4
-file . ".\tb_or_gate.vhd" "5cf2228ffe3b1eaf3cf3c5705a1fa44ed624b1f3" "20251029071838.281":
+file . "tb_or_gate.vhd" "a22846286f27c958bd8f2cca3b2b005aed7a82ca" "20251031093850.452":
   entity tb_or_gate at 1( 0) + 0 on 13;
   architecture test of tb_or_gate at 7( 84) + 0 on 14;
-file . ".\or_gate.vhd" "45292da48b451f590723408918eee0e98e5a73fc" "20251029071415.945":
-  entity or_gate at 1( 0) + 0 on 11;
-  architecture logic of or_gate at 11( 155) + 0 on 12;
+file . "or_gate.vhd" "c8e9e3d773ba943bb41abac5dbd186978affa197" "20251031093831.873":
+  entity or_gate_example at 1( 0) + 0 on 11;
+  architecture logic of or_gate_example at 11( 163) + 0 on 12;

@@ -7,7 +7,7 @@ end entity;
 architecture test of tb_or_gate is
 	signal in1,in2,out1 :std_logic;
 	begin
-		UUT: entity work.or_gate
+		UUT: entity work.or_gate_example
 			port map(
 				input1 => in1,
 				input2 => in2,
@@ -16,7 +16,7 @@ architecture test of tb_or_gate is
 		process
 		begin
 			in1 <= '0' ; in2 <= '0'; wait for 10 ns;
-			in1 <= '1' ; in2 <= '1'; wait for 10 ns;
+			in1 <= '0' ; in2 <= '1'; wait for 10 ns;
 			in1 <= '1' ; in2 <= '0'; wait for 10 ns;
 			in1 <= '1' ; in2 <= '1'; wait for 10 ns;
 			wait;

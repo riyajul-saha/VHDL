@@ -1,8 +1,8 @@
 library IEEE;
 use IEEE.STD_LOGIC_1164.ALL;
 
-entity tb_AND_GATE is
-end tb_AND_GATE;
+entity tb_and_gate is
+end entity;
 
 architecture behavior of tb_AND_GATE is
     component AND_GATE
@@ -15,7 +15,13 @@ architecture behavior of tb_AND_GATE is
 
     signal A, B, Y : STD_LOGIC;
 begin
-    uut: AND_GATE port map (A => A, B => B, Y => Y);
+    uut: entity work.AND_GATE 
+		port map 
+		(
+			A => A, 
+			B => B, 
+			Y => Y
+		);
 
     process
     begin
