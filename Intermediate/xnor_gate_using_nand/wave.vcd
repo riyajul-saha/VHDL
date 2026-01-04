@@ -1,5 +1,5 @@
 $date
-  Sun Dec 28 17:51:20 2025
+  Sun Dec 28 18:33:14 2025
 $end
 $version
   GHDL v0
@@ -11,35 +11,49 @@ $scope module standard $end
 $upscope $end
 $scope module std_logic_1164 $end
 $upscope $end
-$scope module tb_or_gate $end
-$var reg 1 ! in1 $end
-$var reg 1 " in2 $end
-$var reg 1 # out1 $end
+$scope module tb_xnor_gate $end
+$var reg 1 ! a $end
+$var reg 1 " b $end
+$var reg 1 # y $end
 $scope module uut $end
-$var reg 1 $ input1 $end
-$var reg 1 % input2 $end
-$var reg 1 & output $end
+$var reg 1 $ a $end
+$var reg 1 % b $end
+$var reg 1 & y $end
+$var reg 1 ' p $end
+$var reg 1 ( q $end
+$var reg 1 ) r $end
 $upscope $end
 $upscope $end
 $enddefinitions $end
 #0
 0!
 0"
-0#
+1#
 0$
 0%
-0&
+1&
+1'
+1(
+1)
 #10000000
 1"
-1#
+0#
 1%
-1&
+0&
+0)
 #20000000
 1!
 0"
 1$
 0%
+0(
+1)
 #30000000
 1"
+1#
 1%
+1&
+0'
+1(
+1)
 #40000000

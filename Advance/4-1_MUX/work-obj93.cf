@@ -1,7 +1,10 @@
 v 4
-file . "tb_mux.vhd" "25e171959471cf6423f0641cc2ea43841acd1edd" "20251112020448.255":
-  entity tb_mux at 1( 0) + 0 on 13;
-  architecture test of tb_mux at 7( 74) + 0 on 14;
-file . "mux.vhd" "85bb42607198cd8557040efcd6062e45e58367d4" "20251112020434.477":
-  entity mux at 1( 0) + 0 on 11;
-  architecture logic of mux at 13( 184) + 0 on 12;
+file . ".\mux.vhd" "743c6ad10bb7cfb19bb64b8aecf478ff2438b033" "20260104124622.932":
+  entity cmux at 1( 0) + 0 on 19;
+  architecture logic of cmux at 13( 197) + 0 on 20;
+file . ".\cmux.vhd" "77378bcfe482b627f3347ddd726c0fedfbb786d6" "20260104124454.698":
+  entity mux at 1( 0) + 0 on 17;
+  architecture logic of mux at 13( 196) + 0 on 18;
+file . ".\tb_mux.vhd" "0318aced6ff727c13d38efe51a22c180e9c502d4" "20260104124705.581":
+  entity tb_cmux at 1( 0) + 0 on 23;
+  architecture test of tb_cmux at 7( 81) + 0 on 24;

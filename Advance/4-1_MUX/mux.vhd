@@ -1,7 +1,7 @@
 library ieee;
 use ieee.std_logic_1164.all;
 
-entity mux is
+entity cmux is
   port(
     s0 : in std_logic;
     s1 : in std_logic;
@@ -10,7 +10,7 @@ entity mux is
   );
 end entity;
 
-architecture logic of mux is
+architecture logic of cmux is
   begin
     y <= (not s0 and not s1 and x1) or (not s0 and s1 and x2) or (s0 and not s1 and x3) or (s0 and s1 and x4);
 end architecture;

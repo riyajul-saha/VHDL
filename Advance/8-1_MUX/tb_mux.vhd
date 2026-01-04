@@ -1,13 +1,13 @@
 library ieee;
 use ieee.std_logic_1164.all;
 
-entity tb_mux is
+entity tb_cmux is
 end entity;
 
-architecture test of tb_mux is
+architecture test of tb_cmux is
   signal S0,S1,S2,X0,X1,X2,X3,X4,X5,X6,X7,Y : std_logic;
   begin
-    uut: entity work.mux 
+    uut: entity work.cmux 
       port map(
         s0 => S0,
         s1 => S1,
